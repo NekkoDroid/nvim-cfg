@@ -2,52 +2,55 @@
 
 # Project Template
 
-[![Issues](https://img.shields.io/github/issues/NekkoDroid/project-template)](https://github.com/NekkoDroid/project-template/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/NekkoDroid/project-template)](https://github.com/NekkoDroid/project-template/pulls)
-[![Discussions](https://img.shields.io/github/discussions/NekkoDroid/project-template)](https://github.com/NekkoDroid/project-template/discussions)
-[![License](https://img.shields.io/github/license/NekkoDroid/project-template)](#copyright-license)
+[![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?logo=neovim&logoColor=white)](https://neovim.io)
+[![Lua](https://img.shields.io/badge/Lua-%232C2D72.svg?logo=lua&logoColor=white)](https://lua.org)
+[![License](https://img.shields.io/github/license/NekkoDroid/nvim-cfg)](#copyright-license)
 
-*Welcome to my generic project template repository. The files and configurations you will find here are opinionated.*
-*If you want to use this repository as a template, make sure to adjust the files to suit your projects needs.*
+*Welcome to my personal [Neovim](https://neovim.io) configuration. The files and configurations you will find here are opinionated.*
+*If you want to use this configuration as a template, make sure to adjust the files to suit your personal needs.*
 </div>
 
 ## :clipboard: Installation
 
 ### Prerequisites
 
-- Nothing other than an internet connection
-- (Recommended) [Git](https://git-scm.com) for version control
+- [Neovim 0.7.0+](https://neovim.io) as the editor
 
 ### :rocket: Usage
 
 You can create a new repository using this repository as template by using the button above the file list labeled
-[**Use this template**](https://github.com/NekkoDroid/project-template/generate) or you can also just download and
-extract the source by [**downloading the ZIP**](https://github.com/NekkoDroid/project-template/archive/refs/heads/main.zip).
+[**Use this template**](https://github.com/NekkoDroid/nvim-cfg/generate) or you can also just download and extract the
+source by [**downloading the ZIP**](https://github.com/NekkoDroid/nvim-cfg/archive/refs/heads/main.zip).
 
-## :handshake: Contributing
+To make Neovim use this configuration place the downloaded directory in one of the following locations, depending on
+what platform you are on:
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
-contributions you make are **greatly appreciated**:
-
-- [Start a discussion](https://github.com/NekkoDroid/project-template/discussions) for any suggestions you have
-- [Submit a new issue](https://github.com/NekkoDroid/project-template/issues) if you find any new problems with the project
-- [Open a pull request](https://github.com/NekkoDroid/project-template/pulls) to submit fixes, enhancements or similar
+| Platform           | Directory                |
+|--------------------|--------------------------|
+| Windows            | $HOME/AppData/Local/nvim |
+| Unix (Linux/MacOS) | $HOME/.config/nvim       |
+| `$XDG_CONFIG_HOME` | $XDG_CONFIG_HOME/nvim    |
 
 ## :copyright: License
 
-This repository is released into the public domain and may be used for any purpose. For any further information please
-read the included [LICENSE](LICENSE.txt) or visit https://unlicense.org.
+<table>
+<tr>
+<td width="160px">
+
+![Massachusetts Institute of Technology](https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg)
+</td>
+<td>
+
+This project is distributed under the [MIT](https://opensource.org/licenses/MIT) license. For further information read
+the included [LICENSE](LICENSE.txt) files. [TL;DR](https://www.tldrlegal.com/l/mit) you can do whatever you want as long
+as you include the original copyright and license notice in any copy of the software/source.
+</td>
+</tr>
+</table>
 
 <details>
 <summary><b>Permissions</b></summary>
 <blockquote>
-
-<details>
-<summary><em>Private use</em></summary>
-<blockquote>
-The licensed material may be used and modified in private.
-</blockquote>
-</details>
 
 <details>
 <summary><em>Commercial Use</em></summary>
@@ -70,6 +73,13 @@ The licensed material may be distributed.
 </blockquote>
 </details>
 
+<details>
+<summary><em>Private use</em></summary>
+<blockquote>
+The licensed material may be used and modified in private.
+</blockquote>
+</details>
+
 </blockquote>
 </details>
 
@@ -88,6 +98,20 @@ This license includes a limitation of liability.
 <summary><em>Warranty</em></summary>
 <blockquote>
 This license explicitly states that it does NOT provide any warranty.
+</blockquote>
+</details>
+
+</blockquote>
+</details>
+
+<details>
+<summary><b>Conditions</b></summary>
+<blockquote>
+
+<details>
+<summary><em>License and copyright notice</em></summary>
+<blockquote>
+A copy of the license and copyright notice must be included with the licensed material.
 </blockquote>
 </details>
 

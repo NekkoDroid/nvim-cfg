@@ -15,3 +15,7 @@ end_of_line = lf
 # Windows Scripts
 [*.{bat,cmd,ps1}]
 end_of_line = crlf
+
+# Neovim Scripts
+[*.{lua,vim}]
+indent_style = tab

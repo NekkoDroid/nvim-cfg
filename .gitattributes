@@ -10,29 +10,26 @@
 # The above will handle all files NOT found below
 #
 
+# Source files
+# ============
+*.lua       text
+
+# Luadoc output
+# =============
+*.html      text diff=html
+*.css       text diff=css
+
 # Documents
-*.bibtex   text diff=bibtex
 *.doc      diff=astextplain
-*.DOC      diff=astextplain
 *.docx     diff=astextplain
-*.DOCX     diff=astextplain
-*.dot      diff=astextplain
-*.DOT      diff=astextplain
 *.pdf      diff=astextplain
-*.PDF      diff=astextplain
 *.rtf      diff=astextplain
-*.RTF      diff=astextplain
 *.md       text diff=markdown
 *.mdx      text diff=markdown
 *.tex      text diff=tex
-*.adoc     text
-*.textile  text
-*.mustache text
 *.csv      text
-*.tab      text
 *.tsv      text
 *.txt      text
-*.sql      text
 
 # Graphics
 *.png      binary
@@ -53,11 +50,10 @@
 *.bash     text eol=lf
 *.fish     text eol=lf
 *.sh       text eol=lf
-*.zsh      text eol=lf
 # These are explicitly windows files and should use crlf
-*.bat      text eol=crlf
-*.cmd      text eol=crlf
-*.ps1      text eol=crlf
+*.ps1       text eol=crlf
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
 
 # Serialisation
 *.json     text
@@ -65,6 +61,7 @@
 *.xml      text
 *.yaml     text
 *.yml      text
+*.ini      text
 
 # Archives
 *.7z       binary
