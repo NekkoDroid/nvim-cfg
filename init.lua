@@ -141,9 +141,7 @@ packer.startup(function(use)
 	use(require("plugins.gitsigns"))
 	use(require("plugins.editorconfig"))
 
-	if vim.fn.filereadable(packer.config.compile_path) == 0 then
 		packer.sync()
-	end
 end)
 
 --[[
