@@ -128,6 +128,7 @@ packer.startup(function(use)
 	use(require("ui.highlighting"))
 	use(require("ui.statusline"))
 	use(require("ui.bufferline"))
+	use(require("ui.telescope"))
 
 	-- Completion
 	use(require("lsp.completion"))
@@ -141,7 +142,7 @@ packer.startup(function(use)
 	use(require("plugins.gitsigns"))
 	use(require("plugins.editorconfig"))
 
-		packer.sync()
+	packer.sync()
 end)
 
 --[[
