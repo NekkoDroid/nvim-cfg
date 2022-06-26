@@ -153,3 +153,9 @@ end)
 	██║  ██╗███████╗   ██║   ██████╔╝██║██║ ╚████║██████╔╝███████║
 	╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═════╝ ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝
 ]]--
+
+vim.keymap.set('n', "<Leader>ff", function()
+	require("telescope").extensions.file_browser.file_browser()
+end, {
+	desc = "Open the file explorer"
+})
